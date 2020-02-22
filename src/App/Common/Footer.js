@@ -18,16 +18,17 @@ export default function Footer() {
             target="blank"
             href="https://discordapp.com/channels/515951809752465408/515952580103372810"
           >
-            <FontAwesomeIcon icon={faLaptop} />
+            <FontAwesomeIcon icon={faLaptop} /> 
             <span>discordapp.com</span>
           </a>
         </div>
       </div>
       <div className="footer-copyright text-center py-3 white">
-        © 2019 Copyright:
-        <a target="blank" href="#">
+        © { new Date().getFullYear() } Copyright:
+        <a target="blank" href="http://sdyyc.ca/">
           {' '}
-          this website{' '}
+          Developers Learn React{' '}
+          <i class="fas fa-info-circle"></i>
         </a>
       </div>
     </footer>
